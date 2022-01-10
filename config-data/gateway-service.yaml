@@ -47,4 +47,4 @@ spring:
               client-id: tutorial-client
               client-secret: DeVXedizMv6zsFmfVqa9MsSHGFKBZ62G
               authorization-grant-type: authorization_code
-              redirect-uri: http://localhost:8080/login/oauth2/code/tutorial-client
+              redirect-uri: "{baseUrl}/login/oauth2/code/tutorial-client"
